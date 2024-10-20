@@ -21,7 +21,7 @@
         var ballSize = 100; 
 
         function create() {
-            for (let i = 0; i < 3; i++) {
+            for (let i = 0; i < 7; i++) {
                 let x = randomX();
                 let y = randomY();
                 let xvell = randomVel();
@@ -50,7 +50,7 @@
             return Math.random() *600;
         }
         function randomColor() {
-            let palette = ['red', 'green', 'blue'];
+            let palette = ['red', 'green', 'blue', 'aqua', 'black', 'grey', 'orange'];
             return palette[Math.floor(Math.random() * palette.length)];
         }
         function randomVel() {
